@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "318160272178",
+    "project_id": "pecfp-304521",
+    "storage_bucket": "pecfp-304521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318160272178:android:08d8012af121e031e1f52b",
+        "android_client_info": {
+          "package_name": "com.ulp.pecfp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318160272178-q01v9177th92uubef6p986qc3d5rrkdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxsA4f9K64X-LKLmX7OIFcW-iVBWlsSCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318160272178-q01v9177th92uubef6p986qc3d5rrkdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

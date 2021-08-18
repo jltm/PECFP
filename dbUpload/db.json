@@ -1,0 +1,134 @@
+{
+    "stations":{
+        "saobento":{
+            "title":"São bento",
+            "lat":"41.145667",
+            "long":"-8.60959",
+            "city":"Porto",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Esta%C3%A7%C3%A3o_S%C3%A3o_Bento_Porto.JPG"
+        },
+        "campanha":{
+            "title":"Campanhã",
+            "lat":"41.149318",
+            "long":"-8.585097",
+            "city":"Porto",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/7/7c/Fachada_Frontal_da_Esta%C3%A7%C3%A3o_da_Campanh%C3%A3.jpg"
+        },
+        "santaapolonia":{
+            "title":"Santa Apolonia",
+            "lat":"38.714176",
+            "long":"-9.122615",
+            "city":"Lisboa",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Estacao_sta_apolonia.jpg"
+        },
+        "braga":{
+            "title":"Estação Ferroviária de Braga",
+            "lat":"41.547321",
+            "long":"-8.434821",
+            "city":"Braga",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Esta%C3%A7%C3%A3o_de_Braga%2C_2009.12.17.jpg"
+        },
+        "aveiro":{
+            "title":"Estação Ferroviária de Braga",
+            "lat":"40.643518",
+            "long":"-8.640806",
+            "city":"Braga",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/8/8c/Flickr_-_nmorao_-_Esta%C3%A7%C3%A3o_de_Aveiro%2C_2008.06.18.jpg"
+        }
+
+    },
+    "trains":{
+        "100":{
+            "number":"100"
+        
+        },
+        "170":{
+            "number":"170"
+         
+        },
+        "200":{
+            "number":"200"
+  
+        },
+        "300":{
+            "number":"300"
+        }
+        
+    },
+    "schedules":{
+        "sch1":{
+            "departTime":"10:00",
+            "arrivalTime":"12:00",
+            "dayOfWeek":"1"
+        },
+        "sch2":{
+            "departTime":"10:00",
+            "arrivalTime":"12:00",
+            "dayOfWeek":"2"
+        },
+        "sch3":{
+            "departTime":"14:00",
+            "arrivalTime":"12:00",
+            "dayOfWeek":"7"
+        }
+    },
+    "trips":{
+
+        "t1":{
+            "departureLoc":"saobento",   
+            "arrivalLoc":"campanha",
+            "trains":170,
+            "schedules":"sch1"
+
+        },
+        "t2":{
+            "departureLoc":"santaapolonia",
+            "arrivalLoc":"saobento",
+            "trains":100,
+            "schedules":"sch2"
+        },
+        "t3":{
+            "departureLoc":"saobento",
+            "arrivalLoc":"braga",
+            "trains":200,
+            "schedules":"sch2"
+        },
+        "t4":{
+            "departureLoc":"aveiro",
+            "arrivalLoc":"santaapolonia",
+            "trains":250,
+            "schedules":"sch3"
+        }
+
+    },
+    "historicInfo":{
+        "1975":{
+            "title":"Construção da Ponte Maria Pia",
+            "description":"A segunda fase, entre as Décadas de 1870 e 1880, assistiu a um aumento considerável no ritmo de construção, tendo sido concluídas as ligações fundamentais no Norte e Sul de Portugal, e o início da construção de algumas complementares.Assim, em 5 de Janeiro de 1875 iniciaram-se as obras na Ponte D. Maria Pia",
+            "year":1975,
+            "city":"Porto",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Obras_da_Ponte_D._Maria_Pia_-_Os_Caminhos_de_Ferro_Portugueses_1856-2006.jpg"
+        },
+        "1926":{
+            "title":"Inauguração da electrificação da Linha de Cascais",
+            "description":"Em 1926, foi inaugurada a tracção eléctrica na Linha de Cascais, começando a circular as primeiras locomotivas eléctricas em Portugal.",
+            "year":1926,
+            "city":"Cascais",
+            "imgSrc":"https://upload.wikimedia.org/wikipedia/commons/7/70/Inauguracao_comboios_electricos_Linha_Cascais_2_-_GazetaCF_928_1926.jpg"
+        }
+    },
+    "filters":{
+        "Porto":{
+            "name":"Porto"
+        },
+        "Braga":{
+            "name":"Braga"
+        },
+        "Lisbon":{
+            "name":"Lisbon"
+        },
+        "Braga":{
+            "name":"Braga"
+        }
+    }
+}
